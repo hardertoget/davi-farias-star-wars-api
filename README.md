@@ -1,4 +1,5 @@
 # Star Wars API Tests
+# Aluno: Davi Sousa de Farias
 
 Este projeto contém uma série de testes para a API pública da Star Wars (https://swapi.dev/). O objetivo é validar as respostas da API para diferentes recursos, como planetas, naves, filmes e validar rotas inválidas.
 
@@ -13,3 +14,7 @@ Este projeto contém uma série de testes para a API pública da Star Wars (http
 3. Rode os testes com `npm test`.
 
 Os testes também são automatizados no GitHub Actions, sendo executados a cada push para o repositório.
+
+##Importante:
+No commit mais recente, troquei o valor esperado no teste das starships de "Cruiser" para "CR90 corvette" com o objetivo de testar se o github actions iria funcionar.
+
