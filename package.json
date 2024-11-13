@@ -1,0 +1,26 @@
+{
+  "name": "starwarsapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hardertoget/davi-farias-star-wars-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hardertoget/davi-farias-star-wars-api/issues"
+  },
+  "homepage": "https://github.com/hardertoget/davi-farias-star-wars-api#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
