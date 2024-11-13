@@ -24,5 +24,8 @@ jobs:
     - name: Install dependencies
       run: npm install
 
+    - name: Set execute permissions for Jest
+      run: chmod +x ./node_modules/.bin/jest
+      
     - name: Run invalid route 2 test
       run: npm test -- --testNamePattern="Invalid Route 2"
