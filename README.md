@@ -15,6 +15,3 @@ Este projeto contém uma série de testes para a API pública da Star Wars (http
 
 Os testes também são automatizados no GitHub Actions, sendo executados a cada push para o repositório.
 
-##Importante:
-No commit mais recente, troquei o valor esperado no teste das starships de "Cruiser" para "CR90 corvette" com o objetivo de testar se o github actions iria funcionar.
-

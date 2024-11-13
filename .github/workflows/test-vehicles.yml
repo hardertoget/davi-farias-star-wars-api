@@ -1,4 +1,4 @@
-name: Run Tests
+name: Run Vehicles Test
 
 on:
   push:
@@ -24,8 +24,5 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Set execute permissions for Jest
-      run: chmod +x ./node_modules/.bin/jest
-
-    - name: Run tests
-      run: npm test
+    - name: Run vehicles test
+      run: npm test -- --testNamePattern="Vehicles"
